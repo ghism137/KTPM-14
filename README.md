@@ -56,13 +56,16 @@ Trong phiên bản online của trò chơi:
 ---
 
 ## 🕹️ Cách chơi
+Tuân thủ theo luật chơi cờ tướng truyền thống.
 
-### Backend:
+---
+## Cài đặt
+ Backend:
 ```bash
 python api.py
 ```
 
-### Frontend:
+ Frontend:
 ```bash
 cd fe
 npm i
@@ -76,7 +79,7 @@ npm run dev
 **1. Làm sao để kết nối hai máy tính chơi với nhau?**  
 Đảm bảo cả hai máy cùng mạng LAN hoặc biết địa chỉ IP của máy chủ. Máy client nhập IP của server khi được yêu cầu.
 
-**2. Gặp lỗi khi chạy Pygame hoặc WebSocket?**  
+**2. Gặp lỗi khi khơi động chương trình (lỗi cài đặt) ?**  
 Kiểm tra lại phiên bản Python, cài đặt đúng thư viện trong requirements.txt và đảm bảo firewall không chặn cổng.
 
 **3. Có thể chơi trên nhiều hệ điều hành không?**  
